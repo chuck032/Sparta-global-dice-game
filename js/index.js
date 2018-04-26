@@ -62,6 +62,14 @@ var val1 = diceRoll();
   }
 }
 
+function buttonRoll(){
+  var clickRoll = document.getElementsByClassName('innerSquare');
+  for (var i = 0; i < clickRoll.length; i++) {
+    clickRoll[i].classList.remove("dot");
+  }
+  diceRoll();
+  rollNum();
+}
+
+
 //Invoke functions
-diceRoll();
-rollNum();
