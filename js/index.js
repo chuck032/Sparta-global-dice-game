@@ -70,6 +70,3 @@ function buttonRoll(){
   diceRoll();
   rollNum();
 }
-
-
-//Invoke functions
