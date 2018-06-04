@@ -14,4 +14,4 @@ The requirements for this dice game were:
 * Have a Math.random function to randomly generate an integer between 1-6
 * After generating this number, make the corresponding dots on the dice appear
 
-(css/images/SS.png)
+![Dice game](css/images/SS.png)
